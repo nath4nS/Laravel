@@ -14,7 +14,18 @@
                         </div>
                     @endif
 
-                    Lista de Usuários
+                    <table class="table table-bordered table-striped">
+                        <tr>
+                            <th>Nome</th> 
+                            <th>Sexo</th> 
+                        </tr>
+                        @foreach($usuarios as $usuario)
+                        <tr>
+                            <td>{{ $usuario->nome }}</td> 
+                            <td>{{ $usuario->sexo }}</td> 
+                        </tr>
+                        @endforeach
+                    </table>
                 </div>
             </div>
         </div>

@@ -14,6 +14,13 @@ class UsuarioController extends Controller
 
     public function index()
     {
-        return view('usuario.index');
+    	$usuarios = [
+    		(object)['nome' => 'Nathan', 'sexo' => 'Masculino'],
+    		(object)['nome' => 'Paulo', 'sexo' => 'Masculino'],
+    		(object)['nome' => 'Antonio', 'sexo' => 'Masculino']
+    	];
+
+    	//dd($usuarios);
+        return view('usuario.index', compact('usuarios'));
     }
 }

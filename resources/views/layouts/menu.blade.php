@@ -19,13 +19,6 @@
           Filmes
         </a>
       </li>
-
-
-      <li class="nav-item ">
-        <a class="nav-link " href="clientes.php" role="button" >
-          Clientes
-        </a>
-      </li>
       
       <li class="nav-item ">
         <a class="nav-link" href="{{ route('usuario') }}" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -38,6 +31,7 @@
         </a>
       </li>
     </ul>
+
 
     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -74,3 +68,5 @@
   </div>
   </div>
 </nav>
+<br>
+<br>
