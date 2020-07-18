@@ -3,7 +3,11 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
     
-  
+<a class="navbar-brand" href="#">
+  <figure>
+    <img src="{{ asset('assets/img/logo1.png') }}" width="150">
+  </figure>  
+</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
     <span class="navbar-toggler-icon"></span>
@@ -15,7 +19,7 @@
         <a class="nav-link" href="/home">Início <span class="sr-only">(página atual)</span></a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="vendas.php" id="navbarDropdown" role="button" >
+        <a class="nav-link" href="{{ route('filmes') }}" id="navbarDropdown" role="button" >
           Filmes
         </a>
       </li>
