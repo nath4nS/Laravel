@@ -18,7 +18,7 @@
     </form>
     </div>
     <div class="col-2">
-        <a href="" class="btn btn-success">Novo</a>
+        <a href="" class="btn btn-success">Novo Filme</a>
     </div>
 </div>
     <div class="row justify-content-center">
