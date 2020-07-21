@@ -12,13 +12,13 @@
       <button class="btn btn-success my-2 my-sm-0" type="submit">
         <i class="fas fa-search"></i>   
       </button>
-      <a href="produtos" class="btn btn-warning my-2 my-sm-0">
+      <a href="filmes" class="btn btn-warning my-2 my-sm-0">
         <i class="fas fa-trash-alt"></i>
       </a>
     </form>
     </div>
     <div class="col-2">
-        <a href="" class="btn btn-success">Novo Filme</a>
+        <a href="{{ route('filmes.add') }}" class="btn btn-success">Novo Filme</a>
     </div>
 </div>
     <div class="row justify-content-center">

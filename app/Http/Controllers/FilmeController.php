@@ -21,4 +21,12 @@ class FilmeController extends Controller
     	//dd($filmes);
         return view('filmes.index', compact('filmes'));
     }
+    public function add()
+    {
+        return view('filmes.form');
+    }
+        public function store(Request $request)
+    {
+        dd($request->all());
+    }
 }
