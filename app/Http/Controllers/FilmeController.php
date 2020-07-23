@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Filme;
 
 class FilmeController extends Controller
 {
@@ -14,7 +15,7 @@ class FilmeController extends Controller
 
     public function index()
     {
-    	$filmes = [
+    	$filme = [
     		(object)['nome' => 'Velozes e Furiosos', 'Genero' => 'Ação']
     	];
 
@@ -25,8 +26,9 @@ class FilmeController extends Controller
     {
         return view('filmes.form');
     }
-        public function store(Request $request)
+    public function store(Request $request)
     {
-        dd($request->all());
+        Filme::create($request->all());
+        return redirect('filmes');
     }
 }
