@@ -41,7 +41,7 @@
                         @foreach($filmes as $filme)
                         <tr>
                             <td>{{ $filme->nome }}</td> 
-                            <td>{{ $filme->Genero }}</td> 
+                            <td>{{ $filme->genero }}</td> 
                         </tr>
                         @endforeach
                     </table>

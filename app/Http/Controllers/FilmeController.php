@@ -15,10 +15,10 @@ class FilmeController extends Controller
 
     public function index()
     {
-    	$filme = [
-    		(object)['nome' => 'Velozes e Furiosos', 'Genero' => 'Ação'],
-            (object)['nome' => 'Velozes e Furiosos', 'Genero' => 'Ação'],
-            (object)['nome' => 'Velozes e Furiosos', 'Genero' => 'Ação']
+    	$filmes = [
+    		(object)['nome' => 'Velozes e Furiosos', 'genero' => 'Ação'],
+            (object)['nome' => 'Velozes e Furiosos', 'genero' => 'Aventura'],
+            (object)['nome' => 'Velozes e Furiosos', 'genero' => 'Ação']
     	];
 
     	//dd($filmes);

@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
     
-<a class="navbar-brand" href="#">
+<a class="navbar-brand" href="/">
   <figure>
     <img src="{{ asset('assets/img/logo1.png') }}" width="150">
   </figure>  
